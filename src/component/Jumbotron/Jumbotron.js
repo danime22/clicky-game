@@ -10,7 +10,7 @@ function Jumbotron(props) {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-4">
-                        <img style={{width: 500, }} src={logo} alt="logo" className="logoPokemon"/>
+                        <img style={{width: 400 }} src={logo} alt="logo" className="logoPokemon"/>
                     </div>
                     <div className="title col-sm-8">
                         <h1>{props.title}</h1>

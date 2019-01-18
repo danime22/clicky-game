@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar/Navbar";
 import Jumbotron from "./component/Jumbotron/Jumbotron";
 import PokemonCard from "./component/PokemonCard/Pokemon";
 import Wrapper from "./component/Wrapper/Index";
+import Footer from "./component/Footer/Footer";
 import data from "./data.json";
 
 
@@ -68,7 +69,8 @@ class App extends Component {
               return this.renderCard(i);
             })
           }
-        </Wrapper>   
+        </Wrapper>  
+        <Footer /> 
       </div>
 
     );
