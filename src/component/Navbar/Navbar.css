@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+li {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 26px;
+    display: inline-block;
+    padding: 26px ;
+    color: white;
+}
+
+
+.alex {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align:center;
+    background-image: linear-gradient(#15044C, #63001E);
+    z-index: 9000;
+}

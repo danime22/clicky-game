@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.col-sm-4 {
+    text-align: start;
+    border-color: red;
+}
+.col-sm-8 {
+    text-align: end;
+
+
+}
+
+.jumbotron {
+    background-image: linear-gradient(#A50A0A, #FD3D3D);
+    
+ 
+}
+.container {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+h1 {
+
+    color: yellow;
+    font-family: 'Shrikhand', cursive;
+    
+}
+
+img .logoPokemon {
+    width: 400px;
+}

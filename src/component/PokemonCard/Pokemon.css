@@ -1,0 +1,13 @@
+img {
+    height: 260px;
+}
+
+img:hover {
+
+}
+
+.card {
+margin: 10px;
+    background-color: rgba(245, 245, 245, 0)
+}
+
