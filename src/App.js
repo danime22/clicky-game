@@ -34,7 +34,7 @@ class App extends Component {
 
   onclickHandler = (id) => {
     if (this.pokemonClicked.includes(id)) {
-      this.status = "You Fucking Loser!!!!"
+      this.status = "You Lost!!!!"
       if (this.score > this.bestScore) {
         this.bestScore = this.score;
       }
@@ -62,7 +62,7 @@ class App extends Component {
 
       <div className="App">
         <Navbar status={this.status} score={this.score} bestScore={this.bestScore} />
-        <Jumbotron title="Clicky that Pokemon!" />
+        <Jumbotron title="Click that Pokemon!" />
         <Wrapper>
           {
             this.cards.map((card, i) => {
