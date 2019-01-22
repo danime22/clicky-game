@@ -1,13 +1,15 @@
 img {
-    height: 260px;
+height: 260px;
+transition: all;
+
 }
 
 img:hover {
-
+transform: rotate(360deg); 
 }
 
 .card {
 margin: 10px;
-    background-color: rgba(245, 245, 245, 0)
+background-color: rgba(245, 245, 245, 0)
 }
 
